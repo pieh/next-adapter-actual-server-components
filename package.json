@@ -1,0 +1,21 @@
+{
+  "name": "server-components",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.7.0",
+    "@next-community/adapter-vercel": "file:next-community-adapter-vercel-0.0.0.tgz",
+    "next": "^15.6.0-canary.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "18.2.34",
+    "typescript": "^5.3.3"
+  }
+}
