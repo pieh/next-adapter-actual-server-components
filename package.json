@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf .vercel && mkdir .vercel && cp -r .next/output .vercel"
+    "build": "next build && echo 'after build' && rm -rf .vercel/output&& echo 'after clean' && mkdir -p .vercel&& echo 'after mkdir' && cp -r .next/output .vercel&& echo 'after copy'"
   },
   "dependencies": {
     "@netlify/functions": "^2.7.0",
